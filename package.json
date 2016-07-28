@@ -1,0 +1,38 @@
+{
+  "name": "browser-is-online",
+  "version": "1.0.0",
+  "description": "Check the network connection",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build": "browserify example/index.js -o example/build.js -dv"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekimsit/browser-is-online.git"
+  },
+  "keywords": [
+    "browser",
+    "network",
+    "navigator",
+    "client",
+    "connectivity",
+    "html5"
+  ],
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "xo": "*"
+  },
+  "author": "vivek poddar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivekimsit/browser-is-online/issues"
+  },
+  "homepage": "https://github.com/vivekimsit/browser-is-online#readme"
+}
